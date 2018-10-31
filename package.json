@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/cperalta26/rental-property-management#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
