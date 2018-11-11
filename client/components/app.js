@@ -1,8 +1,15 @@
-import React from 'react'
-import '../../public/index.css'
+import React, {Component} from 'react';
+import {Route, Switch} from 'react-router-dom';
+import Home from './Home';
+import '../../public/index.css';
 
-const rentalApp = () => {
-  return <h1>Initial React component</h1>
+export default class App extends Component() {
+  constructor(props){
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+
+  }
 }
-
-export default  rentalApp
