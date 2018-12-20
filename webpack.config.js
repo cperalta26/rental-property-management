@@ -9,7 +9,7 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   resolve: {
-    extensions: ['.jsx', '.js', '.json']
+    extensions: ['.jsx', '.js', '.json', '*']
   },
   module: {
     rules: [
