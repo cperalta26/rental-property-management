@@ -1,5 +1,5 @@
 import React from 'react'
 
-const BuildingREntalListContainer = () => <h1>BuildingREntalListContainer!!!!</h1>
+const BuildingRentalListContainer = () => <h1>BuildingRentalListContainer!!!!</h1>
 
-export default BuildingREntalListContainer
+export default BuildingRentalListContainer
