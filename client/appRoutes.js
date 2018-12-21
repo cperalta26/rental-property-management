@@ -7,7 +7,7 @@ import {
   BuildingRentalListContainer,
   BuildingRentalUnitContainer,
   AllRentalUnitsContainer
-} from "./components"
+} from "./components/indexAllComponents"
 
 import "../public/index.css"
 
