@@ -25,7 +25,7 @@ export default class App extends Component {
         <Route path='/buildings/:buildingId/' component={BuildingContainer} />
         <Route path='/buildings/:buildingId/rentalUnitsInBuilding' component={BuildingRentalListContainer}/>
         <Route path='/buildings/:buildingId/rentalUnitsInBuilding/:rentalUnitId' component={BuildingRentalUnitContainer} />
-        <Route path='/allunits' component={AllRentalUnitsContainer} />
+        <Route path='/allUnits' component={AllRentalUnitsContainer} />
       </Switch>
     )
   }
