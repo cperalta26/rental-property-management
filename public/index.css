@@ -5,5 +5,9 @@
 }
 
 .home-page {
-  background-color: purple;
+  background-image: url('./Images/luxury\ building.jpeg');
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
