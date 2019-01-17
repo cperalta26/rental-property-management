@@ -5,7 +5,7 @@ import { homePage, logo } from '../../public/index.css'
 const Home = () => (
   <div className={ homePage }>
     <div className={ logo }>
-      <img src="../../public/images/logo.png" alt=""/>
+      <img src={require('../../public/Images/logo.png')} alt="logo"/>
     </div>
   </div>
 )
