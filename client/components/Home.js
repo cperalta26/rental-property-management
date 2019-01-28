@@ -1,6 +1,6 @@
 import React from 'react'
 import { homePage, logo } from '../../public/index.css'
-import imageLogo  from '../../public/Images/logo.png'
+import imageLogo  from '../../public/Images/companyLogo.png'
 
 const Home = () => (
   <div className={ homePage }>
