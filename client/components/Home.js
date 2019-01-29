@@ -1,13 +1,13 @@
 import React from 'react'
-import { homePage, logo } from '../../public/index.css'
+import { header, logo } from '../../public/index.css'
 import imageLogo  from '../../public/Images/companyLogo.png'
 
 const Home = () => (
-  <div className={ homePage }>
+  <header className={ header }>
     <div className={ logo }>
       <img src={ imageLogo } alt="logo"/>
     </div>
-  </div>
+  </header>
 )
 
 export default Home
