@@ -10,6 +10,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  overflow: hidden
 }
 
 .logo {
@@ -25,18 +26,10 @@
   right: 80%;
 }
 
-.block-one:before {
-  overflow: hidden;
-}
-
-.block-one:after {
-  overflow:visible;
-}
-
-.object:hover {
+.object {
   transition: all 2s ease-in-out;
 }
 
-.move-to-right:hover {
-  transform: translate(120vw, 0)
+.move-to-right {
+  transform: translate(101vw, 0)
 }
