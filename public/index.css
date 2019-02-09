@@ -9,9 +9,34 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .logo {
   width: auto;
 }
 
+.block-one {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: red;
+  left: 0%;
+  right: 80%;
+}
+
+.block-one:before {
+  overflow: hidden;
+}
+
+.block-one:after {
+  overflow:visible;
+}
+
+.object:hover {
+  transition: all 2s ease-in-out;
+}
+
+.move-to-right:hover {
+  transform: translate(120vw, 0)
+}
