@@ -6,7 +6,7 @@ const Home = () => (
   <header className={ style.header }>
     <div className={ style.logo }>
       <img src={ imageLogo } alt="logo"/>
-      <div className={ `${style.blockOne} ${style.moveToRight} ${style.object}` }>x</div>
+      <div className={ style.blockOne }>x</div>
     </div>
   </header>
 )
