@@ -22,19 +22,26 @@
   top: 0;
   bottom: 0;
   background: red;
-  left: 0%;
-  right: 80%;
+  left: 0vw;
+  right: 92%;
   animation-name: move-to-right;
-  animation-duration: 0.5s;
+  animation-duration: 5.0s;
   animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  animation-delay: 0.3s;
+  backface-visibility: hidden;
 }
 
-.block-one::after{
-  display: none;
+.block-one:after{
+  visibility: hidden;
 }
 
 @keyframes move-to-right {
+  0% {
+    transform: translateX(0vh) scaleX(1) 
+  }
+
   100% {
-    transform: translate(101vw, 0) scaleX(.2);
+    transform: translate(400vh) scaleX(50);
   }
 }
