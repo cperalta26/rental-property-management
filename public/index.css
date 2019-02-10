@@ -25,7 +25,7 @@
   left: 0%;
   right: 80%;
   animation-name: move-to-right;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -35,6 +35,6 @@
 
 @keyframes move-to-right {
   100% {
-    transform: translate(101vw, 0);
+    transform: translate(101vw, 0) scaleX(.2);
   }
 }
